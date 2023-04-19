@@ -13,10 +13,6 @@ Just strings and then grep through it for bucket.
 
 **FLAG:bucket(m3t4d4t4_4c53f444)**
 
-
-
-
-
 **Transmission-(MISC)::**
 
 https://storage.ebucket.dev/beamoflight.png
@@ -35,4 +31,24 @@ Just copy the message to notepad and used Ctrl+F
 
 **FLAG:bucket{d3c0d3_th3_png_f7c74c1dc7}**
 
+**Drawing-(MISC)::**
 
+https://storage.ebucket.dev/transform.webp
+
+Basically webp images are either png,jpg files which are converted to webp format.
+
+So we need to change it back to that format in order to perform analysis on it.
+
+It can be done by: dwebp transform.webp -o image.png
+
+Now you have the image in png format without any loss of data.
+
+Now that it is a png you can perform the basic analysis using steghide,binwalk,etc..
+
+But none give the output.
+
+Finally if you run zsteg on the png file and grep for 'bucket' you get the required output.
+
+command :zsteg -a transform1.png | grep -i 'bucket'
+
+**FLAG:bucket{1_l0v3_w3bp_f77c069c7}**
