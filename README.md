@@ -39,7 +39,7 @@ Basically webp images are either png,jpg files which are converted to webp forma
 
 So we need to change it back to that format in order to perform analysis on it.
 
-It can be done by: dwebp transform.webp -o image.png
+It can be done by: command :- dwebp transform.webp -o image.png
 
 Now you have the image in png format without any loss of data.
 
