@@ -2,6 +2,18 @@
 STEGO CHALLENGES OF BUCKETCTF
 
 
+**Image-2 -(MISC)::**
+
+https://storage.ebucket.dev/mrxbox98.png
+
+Simple one.
+Just strings and then grep through it for bucket.
+
+**strings mrxbox98.png |grep -i 'bucket'**
+
+**FLAG:bucket(m3t4d4t4_4c53f444)**
+
+
 **TRANSMISSION-(MISC)::**
 
 https://storage.ebucket.dev/beamoflight.png
