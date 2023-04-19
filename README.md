@@ -49,6 +49,6 @@ But none give the output.
 
 Finally if you run zsteg on the png file and grep for 'bucket' you get the required output.
 
-command :zsteg -a transform1.png | grep -i 'bucket'
+command :zsteg -a image.png | grep -i 'bucket'
 
 **FLAG:bucket{1_l0v3_w3bp_f77c069c7}**
