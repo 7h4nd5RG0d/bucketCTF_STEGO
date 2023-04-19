@@ -12,7 +12,7 @@ So I went a bit further and tried using LSB,MSB analysis for this using stegsolv
 And voila! you get hidden text from the message.
 So just tick through all the planes and get the full data.
 
-Just copy the message to notepad and used Ctrl+F 
+Just copy the message to notepad and used Ctrl+F /n
 **FLAG:bucket{d3c0d3_th3_png_f7c74c1dc7}**
 
 
