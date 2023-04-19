@@ -14,7 +14,10 @@ Just strings and then grep through it for bucket.
 **FLAG:bucket(m3t4d4t4_4c53f444)**
 
 
-**TRANSMISSION-(MISC)::**
+
+
+
+**Transmission-(MISC)::**
 
 https://storage.ebucket.dev/beamoflight.png
 
